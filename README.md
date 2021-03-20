@@ -1,19 +1,15 @@
 # hci-mouse
-Mouse assistance for motor disabled people using Computer Vision
-
-### Clone options
-Clone this repository and change the root folder name from `hci-mouse` to `hci`
+Mouse assistance for motor disabled people using Computer Vision & HCI
 
 ### Steps to execute project
-* Clone this repository and make sure to change root directory name to hci
-* Install Python 3.8.5, Pipenv, CMake and GCC
-* Using Pipenv, start the virtual environment using `pipenv shell`
-* Install all the packages in the Pipfile using `pipenv install`
+* Clone this repository in to your home directory
+* Install gcc, python3, python3-pip and pipenv using apt package manager
+* Using pipenv, create and enter virtual environment using `pipenv shell`
+* Install all dependencies using `pipenv install`
+* Now, you can run the program using the bash command `python3 main.py`
 
-Installing dlib requires a C compiler and CMake to compile it, make sure to install both before proceeding
-
-### How to execute?
-Now, you can run the program using `python3 main.py`
+##### Note
+The project may require installing some other programs like python3-dev, python3-tk and python3-xlib
 
 ### Supported platforms
 Ubuntu 20.04 and
